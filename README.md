@@ -14,12 +14,13 @@
 
 ## Backend
 
-1. [Thana Tingprasom](https://github.com/eXitHere)
-2. [Pim Piyajiranan](https://github.com/It5Me)
-3. [Sumincha Chalowong](https://github.com/DearSmc)
+1. [Thanadol Sinananvanich](https://github.com/swekiiz)
+2. [Prachya Thongsan](https://github.com/LittleLunar)
+3. [Paratthakorn Sribunyong](https://github.com/Clockwick)
 
 ## Repository
 
-1. [Backend](https://github.com/eXitHere/TOC-Assignment-Backend)
-2. [Frontend](https://github.com/eXitHere/TOC-Assignment-Backend)
-3. [Scraping](https://github.com/Clockwick/TOC-Assignment-Scraping)
+1. [Scraping](https://github.com/Clockwick/TOC-Assignment-Scraping)
+2. [Backend](https://github.com/eXitHere/TOC-Assignment-Backend)
+3. [Frontend](https://github.com/eXitHere/TOC-Assignment-Backend)
+
