@@ -4,6 +4,12 @@ from pyppeteer import launch
 import os
 
 
+'''
+TODO:
+    1. เอาข้อมูล col มาใส่เป็น List
+'''
+
+
 async def main():
     # Launch the browser
     browser = await launch()
@@ -19,11 +25,21 @@ async def main():
     page_content = await page.content()
 
     # Process extracted content with BeautifulSoup
-    soup = BeautifulSoup(page_content)
-    print(soup.prettify())
+    soup = BeautifulSoup(page_content, 'html.parser')
+    print(soup.span.string)
 
     # Close browser
     await browser.close()
 
 
+def local_scraping():
+    with open('schedule-2564.html', 'r') as f:
+        soup = BeautifulSoup(f, 'html.parser')
+        print(soup.prettify())
+
+
+# For Real Scraping
 asyncio.get_event_loop().run_until_complete(main())
+
+# For Local development
+local_scraping()
