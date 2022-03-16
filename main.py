@@ -2,7 +2,7 @@ import asyncio
 from bs4 import BeautifulSoup
 from pyppeteer import launch
 import os
-
+import re
 
 '''
 TODO:
@@ -33,9 +33,21 @@ async def main():
 
 
 def local_scraping():
-    with open('schedule-2564.html', 'r') as f:
+    regex = {
+        "data":r"(?s)<tbody.*?</tbody>",
+        "rowData":r'(?s)<tr.*?</tr>',
+        "courseID":r'(?s)<td>\s*<div>\s*<span>\s*(?P<courseID>\d+)\s*</span>\s*</div>\s*</td>',
+    }
+
+    with open('schedule-2564.html', mode='r', encoding="utf-8") as f:
         soup = BeautifulSoup(f, 'html.parser')
-        print(soup.prettify())
+        
+        s = re.findall(regex["data"], str(soup))
+        
+        s = re.findall(regex["rowData"], s[0])
+        print(BeautifulSoup(s[2], 'html.parser').prettify())
+        courseID = re.search(regex["courseID"], s[0])
+        print(courseID.groupdict())
 
 
 # For Real Scraping
