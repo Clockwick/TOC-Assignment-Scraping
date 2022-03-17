@@ -3,7 +3,7 @@ from bs4 import BeautifulSoup
 from pyppeteer import launch
 import os
 import re
-
+import json
 '''
 TODO:
     1. เอาข้อมูล col มาใส่เป็น List
@@ -35,14 +35,28 @@ async def main():
 def local_scraping():
     # r'(?s)<td>\s*<div>\s*<span>\s*(?P<courseID>\d*)\s*</span>\s*</div>\s*</td>\s*<td>\s*<a[^>]*>\s*(?P<courseName>\s*|\w+[\s\w]*\w+)\s*</a>\s*</td>\s*<td>\s*(?P<unit>\s*|\d{1}\(\d{1}-\d{1}-\d{1}\))\s*</td>\s*<td[^>]*>\s*(?P<section>\d+)\s*<span>\s*<span[^>]*>\s*<span[^>]*>\s*(?P<type>\s*|[\u0E00-\u0E7F]*)\s*</span>\s*</span>\s*</span>\s*</td>\s*'
     regex = {
-        "table":r"(?s)<tbody.*?</tbody>",
-        "rowData":r'(?s)<tr.*?</tr>',
-        "data":r'(?s)<td><div><span>(?P<courseID>\s*|\d*)</span></div></td><td><a[^>]*>(?P<courseName>\s*|\w+[\s\w]*\w+)</a></td><td>(?P<unit>\s*|\d{1}\(\d{1}-\d{1}-\d{1}\))</td><td[^>]*>(?P<section>\s*|\d+)<span><span[^>]*><span[^>]*>(?P<type>\s*|[\u0E00-\u0E7F]*)</span></span></span></td><td[^>]*><a[^>]*>[<div>]*(?P<schedule>.*?)[</div>]*</a></td><td>(?P<room>.*?)</td><td>(?P<building>.*?)</td><td[^>]*><div>(?P<teacher>.*?)</div></td><td.*?><span.*?/span><span[^>]*>(?P<midterm>.*?)</span>.*?<span.*?/span><span[^>]*>(?P<final>.*?)<.*?/td><td.*?v>(?P<condition>.*?)</div></td><td.*?v>(?P<note>.*?)<.*?></td>',
-        "teacher":r'(?s)<div>(.*?)</div>',
-        "condition":r'(?s)<div>(.*?)<div.*?/div></div>'
+        "table":r'<table.*?/table>',
+
+        "tbody":r"<tbody.*?/tbody>",
+
+        "rowData":r'<tr.*?/tr>',
+
+        "data":r'<td><div><span>(?P<courseID>\s*|\d*)</span></div></td><td><a[^>]*>(?P<courseName>\s*|\w+[\s\w]*\w+)</a></td><td>(?P<unit>\s*|\d{1}\(\d{1}-\d{1}-\d{1}\))</td><td[^>]*>(?P<section>\s*|\d+)<span><span[^>]*><span[^>]*>(?P<type>\s*|[\u0E00-\u0E7F]*)</span></span></span></td><td[^>]*><a[^>]*>[<div>]*(?P<schedule>.*?)[</div>]*</a></td><td>(?P<room>.*?)</td><td>(?P<building>.*?)</td><td[^>]*><div>(?P<teacher>.*?)</div></td><td.*?><span.*?/span><span[^>]*>(?P<midterm>.*?)</span>.*?<span.*?/span><span[^>]*>(?P<final>.*?)<.*?/td><td.*?v>(?P<restriction>.*?)</div></td><td.*?v>(?P<note>.*?)<.*?></td>',
+        
+        "teacher":r'<div>(.*?)</div>',
+
+        "restriction":r'<div>(.*?)<div.*?/div></div>'
     }
     
+    # payload = { payload: [
+    #     {
+    #         table-
+    #     }
+    # ]}
+    
+
     with open('schedule-2564.html', mode='r', encoding="utf-8") as f:
+
         soup = BeautifulSoup(f, 'html.parser')
         
         # minify html
@@ -50,6 +64,8 @@ def local_scraping():
 
         # get all table
         tables = re.findall(regex["table"], str(minify_string))
+
+        # tableindex = 
 
         for table in tables:
 
@@ -60,13 +76,12 @@ def local_scraping():
                 data_rex = re.search(regex["data"], row)
 
                 teacher_list = re.findall(regex['teacher'], data_rex.group('teacher'))
-                condition_list = re.findall(regex['condition'], data_rex.group('condition'))
+                condition_list = re.findall(regex['restriction'], data_rex.group('restriction'))
 
                 data = data_rex.groupdict()
 
                 data['teacher'] = teacher_list
-                data['condition'] = condition_list
-
+                data['restriction'] = condition_list
                 print(data)
 
 def test_regex():
