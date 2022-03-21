@@ -1,5 +1,6 @@
 import asyncio
 from calendar import c
+from statistics import mode
 from bs4 import BeautifulSoup
 from pyppeteer import launch
 import os
@@ -35,23 +36,6 @@ async def main():
 
 def local_scraping():
 
-    regex = {
-        "top":r'<main.*?<.*?<.*?<.*?<.*?<.*?<h2[^>]*>(?P<tableheader>.*?)</h2>.*?<h2[^>]*>(?P<semester>.*?)</h2></div><div[^>]*><div[^>]*>(?P<alltable>.*?)</div></div></div><div[^>]*><button.*?/button></div></div></div></div></main>',
-        
-        "all_subjects":r'<div.*?><h2[^>]*>(?P<faculty>.*?)</h2><h2[^>]*>(?P<major>.*?)</h2><h2[^>]*>(?P<field>.*?)</h2>(?P<field_subjects>.*?)</div><div class="v-card__actions">.*?</div></div>',
-        
-        "courses":r'<div><div[^>]*>(?P<type>.*?)</div><div[^>]*><div[^>]*><table>(?P<courses>.*?)</table></div></div></div>',
-
-        "tbody":r"<tbody.*?/tbody>",
-
-        "rowData":r'<tr.*?/tr>',
-
-        "data":r'<td><div><span>(?P<courseID>\s*|\d*)</span></div></td><td><a[^>]*>(?P<courseName>\s*|\w+[\s\w]*\w+)</a></td><td>(?P<unit>\s*|\d{1}\(\d{1}-\d{1}-\d{1}\))</td><td[^>]*>(?P<section>\s*|\d+)<span><span[^>]*><span[^>]*>(?P<type>\s*|[\u0E00-\u0E7F]*)</span></span></span></td><td[^>]*><a[^>]*>[<div>]*(?P<schedule>.*?)[</div>]*</a></td><td>(?P<room>.*?)</td><td>(?P<building>.*?)</td><td[^>]*><div>(?P<teacher>.*?)</div></td><td.*?><span.*?/span><span[^>]*>(?P<midterm>.*?)</span>.*?<span.*?/span><span[^>]*>(?P<final>.*?)<.*?/td><td.*?v>(?P<restriction>.*?)</div></td><td.*?v>(?P<note>.*?)<.*?></td>',
-        
-        "teacher":r'<div>(.*?)</div>',
-
-        "restriction":r'<div>(.*?)<div.*?/div></div>'
-    }
     # {
     #     "subjects":[
     #         {
@@ -91,16 +75,37 @@ def local_scraping():
     #     "semester", ""
     # }
 
+    regex = {
+        "top":r'<main.*?<.*?<.*?<.*?<.*?<.*?<h2[^>]*>(?P<tableheader>.*?)</h2>.*?<h2[^>]*>(?P<semester>.*?)</h2></div><div[^>]*><div[^>]*>(?P<alltable>.*?)</div></div></div><div[^>]*><button.*?/button></div></div></div></div></main>',
+        
+        "all_subjects":r'<div.*?><h2[^>]*>(?P<faculty>.*?)</h2><h2[^>]*>(?P<major>.*?)</h2><h2[^>]*>(?P<field>.*?)</h2>(?P<field_subjects>.*?)</div><div class="v-card__actions">.*?</div></div>',
+        
+        "courses":r'<div><div[^>]*>(?P<type>.*?)</div><div[^>]*><div[^>]*><table>(?P<courses>.*?)</table></div></div></div>',
+
+        "tbody":r"<tbody.*?/tbody>",
+
+        "rowData":r'<tr.*?/tr>',
+
+        "data":r'<td><div><span>(?P<courseID>\s*|\d*)</span></div></td><td><a[^>]*>(?P<courseName>\s*|\w+[\s\w]*\w+)</a></td><td>(?P<unit>\s*|\d{1}\(\d{1}-\d{1}-\d{1}\))</td><td[^>]*>(?P<section>\s*|\d+)<span><span[^>]*><span[^>]*>(?P<type>\s*|[\u0E00-\u0E7F]*)</span></span></span></td><td[^>]*><a[^>]*>[<div>]*(?P<schedule>.*?)[</div>]*</a></td><td>(?P<room>.*?)</td><td>(?P<building>.*?)</td><td[^>]*><div>(?P<teacher>.*?)</div></td><td.*?><span.*?/span><span[^>]*>(?P<midterm>.*?)</span>.*?<span.*?/span><span[^>]*>(?P<final>.*?)<.*?/td><td.*?v>(?P<restriction>.*?)</div></td><td.*?v>(?P<note>.*?)<.*?></td>',
+        
+        "teacher":r'<div>(.*?)</div>',
+
+        "restriction":r'<div>(.*?)<div.*?/div></div>'
+    }
+
     payload = {}
     
 
-    with open('schedule-2564.html', mode='r', encoding="utf-8") as f:
+    with open('body_new.reg.kmitl.ac.txt', mode='r', encoding="utf-8") as f:
 
         soup = BeautifulSoup(f, 'html.parser')
-        
-        # minify html
+        # make html in compatible format ( important!!! )
+        soup = soup.prettify()
+
+        # minify html for making simpler regex
         minify_string = re.sub(r'(?s)<!--.*?-->|\s{3,}|\n','',str(soup))
 
+        # get the semester data
         top = re.search(regex['top'], str(minify_string))
 
         payload["semester"] = top.group('semester')
@@ -108,6 +113,7 @@ def local_scraping():
         all_subjects = re.findall(regex['all_subjects'], top.group('alltable'))
 
         payload["subjects"] = []
+
         for field_table in all_subjects:
             fs = {
                 "faculty":field_table[0],
@@ -119,8 +125,6 @@ def local_scraping():
             courses_tables = re.findall(regex['courses'], field_table[3])
             
             for course_table in courses_tables:
-                # print()
-                # print(course_table)
                 t = {
                     "type":course_table[0],
                     "courses":[]
@@ -132,7 +136,7 @@ def local_scraping():
                     rows = re.findall(regex["rowData"], course)
 
                     for row in rows:
-
+                        
                         data_rex = re.search(regex["data"], row)
 
                         teacher_list = re.findall(regex['teacher'], data_rex.group('teacher'))
@@ -149,28 +153,35 @@ def local_scraping():
             
             payload['subjects'].append(fs)
 
+        """
+            'indent' option make json readable
+            make 'ensure_ascii' option to false in order to write Thai word to json ( not in \u format )
+        """
         json_payload = json.dumps(payload, sort_keys=False, indent=4, ensure_ascii=False)
 
+        print(json_payload)
+
+        # write into file in order to check the data.
         with open('data.json',mode='w', encoding="utf-8") as jsonfile:
             jsonfile.write(json_payload)
 
             
 
 def test_regex():
-    with open('schedule-2564.html', mode='r', encoding="utf-8") as test:
-        test = BeautifulSoup(test, 'html.parser')
-        minify_string = re.sub(r'(?s)<!--.*?-->|\s{3,}|\n','',str(test))
-        # print(minify_string)
-        # testreg = r'(?s)<div.*?><h2[^>]*>(?P<faculty>.*?)</h2><h2[^>]*>(?P<major>.*?)</h2><h2[^>]*>(?P<field>.*?)</h2>(?P<relate_subject>.*?)</div><div class="v-card__actions">.*?</div></div>'
-        
-        # result = re.search(testreg, minify_string)
-        
-        iterreg = r'(?s)<div><div[^>]*>(?P<type>.*?)</div><div[^>]*><div[^>]*>(?P<courses>.*?)</div></div></div>'
-        result_list = re.findall(iterreg, minify_string)
-        # a = BeautifulSoup(result_list.groupd, 'html.parser')
-        
-        # print(result.groupdict())
-        print(result_list)
+    pass
+    
+    # minify_string = re.sub(r'(?s)<!--.*?-->|\s{3,}|\n','',str(test))
+    # print(minify_string)
+    # testreg = r'(?s)<div.*?><h2[^>]*>(?P<faculty>.*?)</h2><h2[^>]*>(?P<major>.*?)</h2><h2[^>]*>(?P<field>.*?)</h2>(?P<relate_subject>.*?)</div><div class="v-card__actions">.*?</div></div>'
+    
+    # result = re.search(testreg, minify_string)
+    
+    # iterreg = r'(?s)<div><div[^>]*>(?P<type>.*?)</div><div[^>]*><div[^>]*>(?P<courses>.*?)</div></div></div>'
+    # result_list = re.findall(iterreg, minify_string)
+    # a = BeautifulSoup(result_list.groupd, 'html.parser')
+    
+    # print(result.groupdict())
+    # print(result_list)
 
 
 # For Real Scraping
