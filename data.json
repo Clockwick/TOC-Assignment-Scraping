@@ -1,0 +1,731 @@
+{
+    "semester": "2 / 2564",
+    "subjects": [
+        {
+            "faculty": "วิศวกรรมศาสตร์",
+            "major": "วิศวกรรมคอมพิวเตอร์",
+            "field": "วิศวกรรมคอมพิวเตอร์ ชั้นปีที่ 3",
+            "field_subjects": [
+                {
+                    "type": "วิชาบังคับ",
+                    "courses": [
+                        {
+                            "courseID": "01076013",
+                            "courseName": "THEORY OF COMPUTATION",
+                            "unit": "3(3-0-6)",
+                            "section": "1",
+                            "type": "ทฤษฎี",
+                            "schedule": "อ. 08:45-10:15</div><div>+ อ. 10:30-12:00",
+                            "room": "",
+                            "building": "ออนไลน์ วิศวกรรมศาสตร์",
+                            "teacher": [
+                                "รศ.ดร.เกียรติกูล เจียรนัยธนะกิจ"
+                            ],
+                            "midterm": "จัดสอบเอง",
+                            "final": "อังคาร 17 พ.ค. 2022 13:30 - 16:30",
+                            "restriction": [],
+                            "note": ""
+                        },
+                        {
+                            "courseID": "01076013",
+                            "courseName": "THEORY OF COMPUTATION",
+                            "unit": "3(3-0-6)",
+                            "section": "2",
+                            "type": "ทฤษฎี",
+                            "schedule": "อ. 13:00-14:30</div><div>+ อ. 14:45-16:15",
+                            "room": "",
+                            "building": "ออนไลน์ วิศวกรรมศาสตร์",
+                            "teacher": [
+                                "รศ.ดร.เกียรติกูล เจียรนัยธนะกิจ"
+                            ],
+                            "midterm": "จัดสอบเอง",
+                            "final": "อังคาร 17 พ.ค. 2022 13:30 - 16:30",
+                            "restriction": [],
+                            "note": ""
+                        },
+                        {
+                            "courseID": "01076014",
+                            "courseName": "COMPUTER ENGINEERING PROJECT PREPARATION",
+                            "unit": "1(0-3-2)",
+                            "section": "1",
+                            "type": "ปฏิบัติ",
+                            "schedule": "ส. 16:30-19:30",
+                            "room": "",
+                            "building": "",
+                            "teacher": [
+                                "ผศ.ดร.สุรินทร์ กิตติธรกุล",
+                                "รศ.ดร.อรฉัตร จิตต์โสภักตร์",
+                                "รศ.ดร.เกียรติกูล เจียรนัยธนะกิจ",
+                                "ผศ.ธนา หงษ์สุวรรณ",
+                                "ผศ.ดร.ชุติเมษฏ์ ศรีนิลทา",
+                                "อ.จิระศักดิ์ สิทธิกร",
+                                "รศ.ดร.เจริญ วงษ์ชุ่มเย็น",
+                                "ผศ.ดร.ธนัญชัย ตรีภาค",
+                                "ผศ.วัจนพงศ์ เกษมศิริ",
+                                "อ.คณัฐ ตังติสานนท์",
+                                "ผศ.บัณฑิต พัสยา",
+                                "อ.วิบูลย์ พร้อมพานิชย์",
+                                "ผศ.อัครเดช วัชระภูพงษ์",
+                                "อ.เกียรติณรงค์ ทองประเสริฐ",
+                                "ผศ.ดร.ชมพูนุท จินจาคาม",
+                                "อ.สรยุทธ กลมกล่อม",
+                                "ดร.อักฤทธิ์ สังข์เพ็ชร",
+                                "ผศ.ดร.รัฐชัย ชาวอุทัย",
+                                "ดร.ปริญญา เอกปริญญา"
+                            ],
+                            "midterm": "จัดสอบเอง",
+                            "final": "จัดสอบเอง",
+                            "restriction": [],
+                            "note": ""
+                        },
+                        {
+                            "courseID": "01076022",
+                            "courseName": "MICROCONTROLLER APPLICATION AND DEVELOPMENT",
+                            "unit": "3(2-3-6)",
+                            "section": "1",
+                            "type": "ทฤษฎี",
+                            "schedule": "จ. 13:00-15:00",
+                            "room": "ECC-CE810",
+                            "building": "ปฏิบัติการ-2",
+                            "teacher": [
+                                "อ.สรยุทธ กลมกล่อม"
+                            ],
+                            "midterm": "จัดสอบเอง",
+                            "final": "อังคาร 10 พ.ค. 2022 13:30 - 16:30",
+                            "restriction": [],
+                            "note": ""
+                        },
+                        {
+                            "courseID": "01076022",
+                            "courseName": "MICROCONTROLLER APPLICATION AND DEVELOPMENT",
+                            "unit": "3(2-3-6)",
+                            "section": "101",
+                            "type": "ปฏิบัติ",
+                            "schedule": "จ. 16:30-19:30",
+                            "room": "ECC-CE810",
+                            "building": "ปฏิบัติการ-2",
+                            "teacher": [
+                                "อ.สรยุทธ กลมกล่อม"
+                            ],
+                            "midterm": "จัดสอบเอง",
+                            "final": "จัดสอบเอง",
+                            "restriction": [],
+                            "note": ""
+                        },
+                        {
+                            "courseID": "01076023",
+                            "courseName": "COMPUTER HARDWARE DESIGN",
+                            "unit": "3(2-3-6)",
+                            "section": "1",
+                            "type": "ทฤษฎี",
+                            "schedule": "จ. 09:30-11:30",
+                            "room": "E12-202",
+                            "building": "อาคาร 12 ชั้น",
+                            "teacher": [
+                                "รศ.ดร.เจริญ วงษ์ชุ่มเย็น"
+                            ],
+                            "midterm": "ศุกร์ 11 มี.ค. 2022 13:30 - 16:30",
+                            "final": "พฤหัส 19 พ.ค. 2022 13:30 - 16:30",
+                            "restriction": [],
+                            "note": ""
+                        },
+                        {
+                            "courseID": "01076023",
+                            "courseName": "COMPUTER HARDWARE DESIGN",
+                            "unit": "3(2-3-6)",
+                            "section": "101",
+                            "type": "ปฏิบัติ",
+                            "schedule": "อ. 16:30-19:30",
+                            "room": "E12-202",
+                            "building": "อาคาร 12 ชั้น",
+                            "teacher": [
+                                "รศ.ดร.เจริญ วงษ์ชุ่มเย็น",
+                                "นายอมต หลวงพล"
+                            ],
+                            "midterm": "จัดสอบเอง",
+                            "final": "จัดสอบเอง",
+                            "restriction": [],
+                            "note": ""
+                        },
+                        {
+                            "courseID": "01076024",
+                            "courseName": "SOFTWARE ARCHITECTURE AND DESIGN",
+                            "unit": "4(3-3-8)",
+                            "section": "1",
+                            "type": "ทฤษฎี",
+                            "schedule": "พฤ. 08:45-10:15</div><div>+ พฤ. 10:30-12:00",
+                            "room": "",
+                            "building": "ออนไลน์ วิศวกรรมศาสตร์",
+                            "teacher": [
+                                "ดร.ปริญญา เอกปริญญา"
+                            ],
+                            "midterm": "จัดสอบเอง",
+                            "final": "จัดสอบเอง",
+                            "restriction": [],
+                            "note": ""
+                        },
+                        {
+                            "courseID": "01076024",
+                            "courseName": "SOFTWARE ARCHITECTURE AND DESIGN",
+                            "unit": "4(3-3-8)",
+                            "section": "101",
+                            "type": "ปฏิบัติ",
+                            "schedule": "ศ. 09:00-12:00",
+                            "room": "",
+                            "building": "ออนไลน์ วิศวกรรมศาสตร์",
+                            "teacher": [
+                                "ดร.ปริญญา เอกปริญญา"
+                            ],
+                            "midterm": "จัดสอบเอง",
+                            "final": "จัดสอบเอง",
+                            "restriction": [],
+                            "note": ""
+                        },
+                        {
+                            "courseID": "01076025",
+                            "courseName": "SOFTWARE STUDIO",
+                            "unit": "3(2-3-6)",
+                            "section": "1",
+                            "type": "ทฤษฎี",
+                            "schedule": "พ. 09:30-11:30",
+                            "room": "",
+                            "building": "ออนไลน์ วิศวกรรมศาสตร์",
+                            "teacher": [
+                                "ผศ.วัจนพงศ์ เกษมศิริ"
+                            ],
+                            "midterm": "จัดสอบเอง",
+                            "final": "จัดสอบเอง",
+                            "restriction": [],
+                            "note": ""
+                        },
+                        {
+                            "courseID": "01076025",
+                            "courseName": "SOFTWARE STUDIO",
+                            "unit": "3(2-3-6)",
+                            "section": "101",
+                            "type": "ปฏิบัติ",
+                            "schedule": "พ. 13:00-16:00",
+                            "room": "",
+                            "building": "ออนไลน์ วิศวกรรมศาสตร์",
+                            "teacher": [
+                                "ผศ.วัจนพงศ์ เกษมศิริ"
+                            ],
+                            "midterm": "จัดสอบเอง",
+                            "final": "จัดสอบเอง",
+                            "restriction": [],
+                            "note": ""
+                        },
+                        {
+                            "courseID": "01076026",
+                            "courseName": "USER EXPERIENCE AND USER INTERFACE DESIGN",
+                            "unit": "3(2-3-6)",
+                            "section": "1",
+                            "type": "ทฤษฎี",
+                            "schedule": "พฤ. 09:30-11:30",
+                            "room": "",
+                            "building": "ออนไลน์ วิศวกรรมศาสตร์",
+                            "teacher": [
+                                "ผศ.ดร.ชมพูนุท จินจาคาม"
+                            ],
+                            "midterm": "จัดสอบเอง",
+                            "final": "จัดสอบเอง",
+                            "restriction": [],
+                            "note": ""
+                        },
+                        {
+                            "courseID": "01076026",
+                            "courseName": "USER EXPERIENCE AND USER INTERFACE DESIGN",
+                            "unit": "3(2-3-6)",
+                            "section": "101",
+                            "type": "ปฏิบัติ",
+                            "schedule": "พฤ. 13:00-16:00",
+                            "room": "",
+                            "building": "ออนไลน์ วิศวกรรมศาสตร์",
+                            "teacher": [
+                                "ผศ.ดร.ชมพูนุท จินจาคาม"
+                            ],
+                            "midterm": "จัดสอบเอง",
+                            "final": "จัดสอบเอง",
+                            "restriction": [],
+                            "note": ""
+                        },
+                        {
+                            "courseID": "01076028",
+                            "courseName": "INFORMATION AND COMPUTER SECURITY",
+                            "unit": "3(2-3-6)",
+                            "section": "1",
+                            "type": "ทฤษฎี",
+                            "schedule": "พ. 09:30-11:30",
+                            "room": "",
+                            "building": "ออนไลน์ วิศวกรรมศาสตร์",
+                            "teacher": [
+                                "ผศ.ดร.ธนัญชัย ตรีภาค"
+                            ],
+                            "midterm": "จัดสอบเอง",
+                            "final": "จัดสอบเอง",
+                            "restriction": [],
+                            "note": ""
+                        },
+                        {
+                            "courseID": "01076028",
+                            "courseName": "INFORMATION AND COMPUTER SECURITY",
+                            "unit": "3(2-3-6)",
+                            "section": "101",
+                            "type": "ปฏิบัติ",
+                            "schedule": "พ. 13:00-16:00",
+                            "room": "",
+                            "building": "ออนไลน์ วิศวกรรมศาสตร์",
+                            "teacher": [
+                                "ผศ.ดร.ธนัญชัย ตรีภาค"
+                            ],
+                            "midterm": "จัดสอบเอง",
+                            "final": "จัดสอบเอง",
+                            "restriction": [],
+                            "note": ""
+                        },
+                        {
+                            "courseID": "01076029",
+                            "courseName": "SYSTEM PLATFORM ADMINISTRATION",
+                            "unit": "3(2-3-6)",
+                            "section": "1",
+                            "type": "ทฤษฎี",
+                            "schedule": "พฤ. 09:30-11:30",
+                            "room": "",
+                            "building": "ออนไลน์ วิศวกรรมศาสตร์",
+                            "teacher": [
+                                "ผศ.อัครเดช วัชระภูพงษ์"
+                            ],
+                            "midterm": "จัดสอบเอง",
+                            "final": "จัดสอบเอง",
+                            "restriction": [],
+                            "note": ""
+                        },
+                        {
+                            "courseID": "01076029",
+                            "courseName": "SYSTEM PLATFORM ADMINISTRATION",
+                            "unit": "3(2-3-6)",
+                            "section": "101",
+                            "type": "ปฏิบัติ",
+                            "schedule": "พฤ. 13:00-16:00",
+                            "room": "",
+                            "building": "ออนไลน์ วิศวกรรมศาสตร์",
+                            "teacher": [
+                                "ผศ.อัครเดช วัชระภูพงษ์"
+                            ],
+                            "midterm": "จัดสอบเอง",
+                            "final": "จัดสอบเอง",
+                            "restriction": [],
+                            "note": ""
+                        }
+                    ]
+                },
+                {
+                    "type": "วิชาเลือก / วิชาเลือกเฉพาะสาขา",
+                    "courses": [
+                        {
+                            "courseID": "90101002",
+                            "courseName": "MATHEMATICS IN DAILY LIFE",
+                            "unit": "3(3-0-6)",
+                            "section": "102",
+                            "type": "ทฤษฎี",
+                            "schedule": "ศ. 13:00-16:00",
+                            "room": "Online",
+                            "building": "อาคาร Online",
+                            "teacher": [
+                                "ผศ.ดร.ใจปอง เกษมสุวรรณ์"
+                            ],
+                            "midterm": "พฤหัส 10 มี.ค. 2022 09:30 - 12:30",
+                            "final": "พฤหัส 12 พ.ค. 2022 09:30 - 12:30",
+                            "restriction": [],
+                            "note": "ช่องทางการติดต่ออาจารย์ผู้สอน http://gened.kmitl.ac.th/2021/12/07/online-2-64/"
+                        },
+                        {
+                            "courseID": "90104003",
+                            "courseName": "HEALTH AND NUTRITION",
+                            "unit": "3(3-0-6)",
+                            "section": "101",
+                            "type": "ทฤษฎี",
+                            "schedule": "ศ. 13:00-16:00",
+                            "room": "Online",
+                            "building": "อาคาร Online",
+                            "teacher": [
+                                "ผศ.ดร.วิรามศรี ศรีพจนารถ",
+                                "ผศ.ดร.อุมาพร ฉัตรศรีสุวรรณ",
+                                "ผศ.ดร.ปาจรีย์ อิงคะสุภัทร"
+                            ],
+                            "midterm": "พฤหัส 10 มี.ค. 2022 09:30 - 12:30",
+                            "final": "พฤหัส 12 พ.ค. 2022 09:30 - 12:30",
+                            "restriction": [],
+                            "note": "ช่องทางการติดต่ออาจารย์ผู้สอน http://gened.kmitl.ac.th/2021/12/07/online-2-64/"
+                        },
+                        {
+                            "courseID": "90104007",
+                            "courseName": "FOOD SCIENCE IN DAILY LIFE",
+                            "unit": "3(3-0-6)",
+                            "section": "101",
+                            "type": "ทฤษฎี",
+                            "schedule": "ศ. 13:00-16:00",
+                            "room": "Online",
+                            "building": "อาคาร Online",
+                            "teacher": [
+                                "ดร.อรชร เมฆเกิดชู",
+                                "ผศ.ดร.สร้อยสุดา พรภักดีวัฒนา"
+                            ],
+                            "midterm": "พฤหัส 10 มี.ค. 2022 09:30 - 12:30",
+                            "final": "พฤหัส 12 พ.ค. 2022 09:30 - 12:30",
+                            "restriction": [],
+                            "note": "ช่องทางการติดต่ออาจารย์ผู้สอน http://gened.kmitl.ac.th/2021/12/07/online-2-64/"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "faculty": "วิศวกรรมศาสตร์",
+            "major": "[ แสดงในทุกภาควิชา ]",
+            "field": "[ แสดงในทุกสาขา ] [ แสดงในทุกชั้นปี ]",
+            "field_subjects": [
+                {
+                    "type": "วิชาบังคับ",
+                    "courses": [
+                        {
+                            "courseID": "90591002",
+                            "courseName": "SPORTS AND RECREATIONAL ACTIVITIES",
+                            "unit": "1(0-3-2)",
+                            "section": "913",
+                            "type": "ปฏิบัติ",
+                            "schedule": "พ. 09:00-12:00",
+                            "room": "",
+                            "building": "",
+                            "teacher": [
+                                "ผศ.ศิริพันธ์ มุรธาธัญลักษณ์"
+                            ],
+                            "midterm": "จัดสอบเอง",
+                            "final": "จัดสอบเอง",
+                            "restriction": [
+                                "เฉพาะรหัส 57000001-57999999"
+                            ],
+                            "note": ""
+                        },
+                        {
+                            "courseID": "90591002",
+                            "courseName": "SPORTS AND RECREATIONAL ACTIVITIES",
+                            "unit": "1(0-3-2)",
+                            "section": "961",
+                            "type": "ปฏิบัติ",
+                            "schedule": "พ. 13:00-16:00",
+                            "room": "",
+                            "building": "",
+                            "teacher": [
+                                "ผศ.ศิริพันธ์ มุรธาธัญลักษณ์"
+                            ],
+                            "midterm": "จัดสอบเอง",
+                            "final": "จัดสอบเอง",
+                            "restriction": [
+                                "เฉพาะรหัส 57000001-57999999"
+                            ],
+                            "note": ""
+                        },
+                        {
+                            "courseID": "90591019",
+                            "courseName": "CHARM SCHOOL",
+                            "unit": "2(1-2-3)",
+                            "section": "913",
+                            "type": "ทฤษฎี",
+                            "schedule": "พ. 09:00-10:00",
+                            "room": "ภาควิชา",
+                            "building": "",
+                            "teacher": [
+                                "ดร.กัลยารัตน์ เมธีวีรวงศ์",
+                                "อ.วัลลภ รุจิขจร"
+                            ],
+                            "midterm": "จัดสอบเอง",
+                            "final": "จัดสอบเอง",
+                            "restriction": [
+                                "เฉพาะรหัส 60000001-63999999"
+                            ],
+                            "note": ""
+                        },
+                        {
+                            "courseID": "90591019",
+                            "courseName": "CHARM SCHOOL",
+                            "unit": "2(1-2-3)",
+                            "section": "937",
+                            "type": "ทฤษฎี",
+                            "schedule": "",
+                            "room": "",
+                            "building": "",
+                            "teacher": [
+                                "ดร.กัลยารัตน์ เมธีวีรวงศ์",
+                                "อ.วัลลภ รุจิขจร"
+                            ],
+                            "midterm": "จัดสอบเอง",
+                            "final": "จัดสอบเอง",
+                            "restriction": [
+                                "เฉพาะรหัส 60000001-63999999"
+                            ],
+                            "note": ""
+                        },
+                        {
+                            "courseID": "90591019",
+                            "courseName": "CHARM SCHOOL",
+                            "unit": "2(1-2-3)",
+                            "section": "963",
+                            "type": "ปฏิบัติ",
+                            "schedule": "พ. 10:00-12:00",
+                            "room": "",
+                            "building": "",
+                            "teacher": [
+                                "ดร.กัลยารัตน์ เมธีวีรวงศ์",
+                                "อ.วัลลภ รุจิขจร"
+                            ],
+                            "midterm": "จัดสอบเอง",
+                            "final": "จัดสอบเอง",
+                            "restriction": [
+                                "เฉพาะรหัส 60000001-63999999"
+                            ],
+                            "note": ""
+                        },
+                        {
+                            "courseID": "90591019",
+                            "courseName": "CHARM SCHOOL",
+                            "unit": "2(1-2-3)",
+                            "section": "987",
+                            "type": "ปฏิบัติ",
+                            "schedule": "พ. 14:00-16:00",
+                            "room": "",
+                            "building": "",
+                            "teacher": [
+                                "ดร.กัลยารัตน์ เมธีวีรวงศ์",
+                                "อ.วัลลภ รุจิขจร"
+                            ],
+                            "midterm": "จัดสอบเอง",
+                            "final": "จัดสอบเอง",
+                            "restriction": [
+                                "เฉพาะรหัส 60000001-63999999"
+                            ],
+                            "note": ""
+                        }
+                    ]
+                },
+                {
+                    "type": "วิชาเลือก / วิชาเลือกเฉพาะสาขา",
+                    "courses": [
+                        {
+                            "courseID": "16166206",
+                            "courseName": "ELEMENTARY CHINESE 1",
+                            "unit": "3(3-0-6)",
+                            "section": "141",
+                            "type": "ทฤษฎี",
+                            "schedule": "อ. 13:00-16:00",
+                            "room": "LA 408",
+                            "building": "อาคารใหม่ครุศาสตร์",
+                            "teacher": [
+                                "ดร.จันทพงศ์ บูรณะชัยวงศ์"
+                            ],
+                            "midterm": "อาทิตย์ 13 มี.ค. 2022 09:30 - 11:30",
+                            "final": "อังคาร 17 พ.ค. 2022 09:30 - 12:30",
+                            "restriction": [],
+                            "note": ""
+                        },
+                        {
+                            "courseID": "16166206",
+                            "courseName": "ELEMENTARY CHINESE 1",
+                            "unit": "3(3-0-6)",
+                            "section": "142",
+                            "type": "ทฤษฎี",
+                            "schedule": "พ. 09:00-12:00",
+                            "room": "",
+                            "building": "",
+                            "teacher": [
+                                "อ.ผ่องพิชญ์ สวงรัมย์"
+                            ],
+                            "midterm": "อาทิตย์ 13 มี.ค. 2022 09:30 - 11:30",
+                            "final": "อังคาร 17 พ.ค. 2022 09:30 - 12:30",
+                            "restriction": [],
+                            "note": ""
+                        },
+                        {
+                            "courseID": "16166206",
+                            "courseName": "ELEMENTARY CHINESE 1",
+                            "unit": "3(3-0-6)",
+                            "section": "143",
+                            "type": "ทฤษฎี",
+                            "schedule": "พ. 13:00-16:00",
+                            "room": "LA 404",
+                            "building": "อาคารใหม่ครุศาสตร์",
+                            "teacher": [
+                                "ดร.จันทพงศ์ บูรณะชัยวงศ์"
+                            ],
+                            "midterm": "อาทิตย์ 13 มี.ค. 2022 09:30 - 11:30",
+                            "final": "อังคาร 17 พ.ค. 2022 09:30 - 12:30",
+                            "restriction": [],
+                            "note": ""
+                        },
+                        {
+                            "courseID": "90402011",
+                            "courseName": "ENGINEERING AND TECHNOLOGY LAWS",
+                            "unit": "3(3-0-6)",
+                            "section": "101",
+                            "type": "ทฤษฎี",
+                            "schedule": "ศ. 13:00-16:00",
+                            "room": "Online",
+                            "building": "อาคาร Online",
+                            "teacher": [
+                                "ผศ.ดร.รังสรรค์ เมืองเหลือ"
+                            ],
+                            "midterm": "จัดสอบเอง",
+                            "final": "พุธ 11 พ.ค. 2022 09:30 - 12:30",
+                            "restriction": [],
+                            "note": "ช่องทางการติดต่ออาจารย์ผู้สอน http://gened.kmitl.ac.th/2021/12/07/online-2-64/"
+                        },
+                        {
+                            "courseID": "90591009",
+                            "courseName": "MEDITATION FOR LIFE DEVELOPMENT",
+                            "unit": "3(3-0-6)",
+                            "section": "102",
+                            "type": "ทฤษฎี",
+                            "schedule": "ศ. 09:00-12:00",
+                            "room": "Online",
+                            "building": "อาคาร Online",
+                            "teacher": [
+                                "อ.อุบะ ศิริแก้ว",
+                                "ผศ.ดร.ปัญญา ขันธ์สุวรรณ"
+                            ],
+                            "midterm": "จัดสอบเอง",
+                            "final": "พุธ 11 พ.ค. 2022 09:30 - 12:30",
+                            "restriction": [],
+                            "note": "ช่องทางการติดต่ออาจารย์ผู้สอน http://gened.kmitl.ac.th/2021/12/07/online-2-64/"
+                        },
+                        {
+                            "courseID": "90592028",
+                            "courseName": "TREE DOCTOR",
+                            "unit": "3(3-0-6)",
+                            "section": "102",
+                            "type": "ทฤษฎี",
+                            "schedule": "ศ. 13:00-16:00",
+                            "room": "Online",
+                            "building": "อาคาร Online",
+                            "teacher": [
+                                "ผศ.ดร.พิษณุ แก้วตะพาน",
+                                "อ.วันอาสาฬห์ พิทักษ์"
+                            ],
+                            "midterm": "จัดสอบเอง",
+                            "final": "พฤหัส 12 พ.ค. 2022 09:30 - 12:30",
+                            "restriction": [],
+                            "note": "ช่องทางการติดต่ออาจารย์ผู้สอน http://gened.kmitl.ac.th/2021/12/07/online-2-64/"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "faculty": "วิศวกรรมศาสตร์",
+            "major": "[ แสดงในทุกภาควิชา ]",
+            "field": "[ แสดงในทุกสาขา ] ชั้นปีที่ 3",
+            "field_subjects": [
+                {
+                    "type": "วิชาบังคับ",
+                    "courses": [
+                        {
+                            "courseID": "01066910",
+                            "courseName": "PROGRAMMABLE CONTROL AND DISTRIBUTED CONTROL SYSTEMS LABORATORY",
+                            "unit": "1(0-3-2)",
+                            "section": "3",
+                            "type": "ปฏิบัติ",
+                            "schedule": "จ. 09:00-12:00",
+                            "room": "",
+                            "building": "สาขาวิชา",
+                            "teacher": [
+                                "รศ.ดร.สุพรรณ กุลพาณิชย์"
+                            ],
+                            "midterm": "จัดสอบเอง",
+                            "final": "จัดสอบเอง",
+                            "restriction": [],
+                            "note": "น.ศ. เก็บตก (วัดคุม-พันธุ์ใหม่)"
+                        },
+                        {
+                            "courseID": "01066912",
+                            "courseName": "PROCESS INSTRUMENTATION AND CONTROL LABORATORY",
+                            "unit": "1(0-3-2)",
+                            "section": "3",
+                            "type": "ปฏิบัติ",
+                            "schedule": "จ. 13:00-16:00",
+                            "room": "",
+                            "building": "สาขาวิชา",
+                            "teacher": [
+                                "รศ.วิริยะ กองรัตน์"
+                            ],
+                            "midterm": "จัดสอบเอง",
+                            "final": "จัดสอบเอง",
+                            "restriction": [],
+                            "note": "น.ศ. เก็บตก (วัดคุม-พันธุ์ใหม่)"
+                        }
+                    ]
+                },
+                {
+                    "type": "วิชาเลือก / วิชาเลือกเฉพาะสาขา",
+                    "courses": [
+                        {
+                            "courseID": "90591028",
+                            "courseName": "COOPERATIVE EDUCATION PREPARATION",
+                            "unit": "3(3-0-6)",
+                            "section": "904",
+                            "type": "ทฤษฎี",
+                            "schedule": "ศ. 16:30-19:30",
+                            "room": "Online",
+                            "building": "อาคาร Online",
+                            "teacher": [
+                                "ผศ.ดร.จารุวรรณ พลอยดวงรัตน์",
+                                "อ.วันวิสาข์ พงษ์ปลื้ม",
+                                "ดร. สุจิรา วุฒิโสภณ"
+                            ],
+                            "midterm": "จัดสอบเอง",
+                            "final": "จัดสอบเอง",
+                            "restriction": [],
+                            "note": "ช่องทางการติดต่ออาจารย์ผู้สอน http://gened.kmitl.ac.th/2021/12/07/online-2-64/"
+                        },
+                        {
+                            "courseID": "90591028",
+                            "courseName": "COOPERATIVE EDUCATION PREPARATION",
+                            "unit": "3(3-0-6)",
+                            "section": "905",
+                            "type": "ทฤษฎี",
+                            "schedule": "ศ. 16:30-19:30",
+                            "room": "Online",
+                            "building": "อาคาร Online",
+                            "teacher": [
+                                "ผศ.ดร.จารุวรรณ พลอยดวงรัตน์",
+                                "อ.วันวิสาข์ พงษ์ปลื้ม",
+                                "ดร. สุจิรา วุฒิโสภณ"
+                            ],
+                            "midterm": "จัดสอบเอง",
+                            "final": "จัดสอบเอง",
+                            "restriction": [],
+                            "note": "ช่องทางการติดต่ออาจารย์ผู้สอน http://gened.kmitl.ac.th/2021/12/07/online-2-64/"
+                        },
+                        {
+                            "courseID": "90591028",
+                            "courseName": "COOPERATIVE EDUCATION PREPARATION",
+                            "unit": "3(3-0-6)",
+                            "section": "906",
+                            "type": "ทฤษฎี",
+                            "schedule": "ศ. 16:30-19:30",
+                            "room": "Online",
+                            "building": "อาคาร Online",
+                            "teacher": [
+                                "ผศ.ดร.จารุวรรณ พลอยดวงรัตน์",
+                                "อ.วันวิสาข์ พงษ์ปลื้ม",
+                                "ดร. สุจิรา วุฒิโสภณ"
+                            ],
+                            "midterm": "จัดสอบเอง",
+                            "final": "จัดสอบเอง",
+                            "restriction": [],
+                            "note": "ช่องทางการติดต่ออาจารย์ผู้สอน http://gened.kmitl.ac.th/2021/12/07/online-2-64/"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
