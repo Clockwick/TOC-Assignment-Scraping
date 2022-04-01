@@ -10,12 +10,15 @@
                     "type": "วิชาบังคับ",
                     "courses": [
                         {
-                            "courseID": "01076013",
+                            "courseId": "01076013",
                             "courseName": "THEORY OF COMPUTATION",
-                            "unit": "3(3-0-6)",
+                            "credit": "3(3-0-6)",
                             "section": "1",
                             "type": "ทฤษฎี",
-                            "schedule": "อ. 08:45-10:15</div><div>+ อ. 10:30-12:00",
+                            "schedule": [
+                                "อ. 08:45-10:15",
+                                "+ อ. 10:30-12:00"
+                            ],
                             "room": "",
                             "building": "ออนไลน์ วิศวกรรมศาสตร์",
                             "teacher": [
@@ -27,12 +30,15 @@
                             "note": ""
                         },
                         {
-                            "courseID": "01076013",
+                            "courseId": "01076013",
                             "courseName": "THEORY OF COMPUTATION",
-                            "unit": "3(3-0-6)",
+                            "credit": "3(3-0-6)",
                             "section": "2",
                             "type": "ทฤษฎี",
-                            "schedule": "อ. 13:00-14:30</div><div>+ อ. 14:45-16:15",
+                            "schedule": [
+                                "อ. 13:00-14:30",
+                                "+ อ. 14:45-16:15"
+                            ],
                             "room": "",
                             "building": "ออนไลน์ วิศวกรรมศาสตร์",
                             "teacher": [
@@ -44,12 +50,14 @@
                             "note": ""
                         },
                         {
-                            "courseID": "01076014",
+                            "courseId": "01076014",
                             "courseName": "COMPUTER ENGINEERING PROJECT PREPARATION",
-                            "unit": "1(0-3-2)",
+                            "credit": "1(0-3-2)",
                             "section": "1",
                             "type": "ปฏิบัติ",
-                            "schedule": "ส. 16:30-19:30",
+                            "schedule": [
+                                "ส. 16:30-19:30"
+                            ],
                             "room": "",
                             "building": "",
                             "teacher": [
@@ -79,12 +87,14 @@
                             "note": ""
                         },
                         {
-                            "courseID": "01076022",
+                            "courseId": "01076022",
                             "courseName": "MICROCONTROLLER APPLICATION AND DEVELOPMENT",
-                            "unit": "3(2-3-6)",
+                            "credit": "3(2-3-6)",
                             "section": "1",
                             "type": "ทฤษฎี",
-                            "schedule": "จ. 13:00-15:00",
+                            "schedule": [
+                                "จ. 13:00-15:00"
+                            ],
                             "room": "ECC-CE810",
                             "building": "ปฏิบัติการ-2",
                             "teacher": [
@@ -96,12 +106,14 @@
                             "note": ""
                         },
                         {
-                            "courseID": "01076022",
+                            "courseId": "01076022",
                             "courseName": "MICROCONTROLLER APPLICATION AND DEVELOPMENT",
-                            "unit": "3(2-3-6)",
+                            "credit": "3(2-3-6)",
                             "section": "101",
                             "type": "ปฏิบัติ",
-                            "schedule": "จ. 16:30-19:30",
+                            "schedule": [
+                                "จ. 16:30-19:30"
+                            ],
                             "room": "ECC-CE810",
                             "building": "ปฏิบัติการ-2",
                             "teacher": [
@@ -113,12 +125,14 @@
                             "note": ""
                         },
                         {
-                            "courseID": "01076023",
+                            "courseId": "01076023",
                             "courseName": "COMPUTER HARDWARE DESIGN",
-                            "unit": "3(2-3-6)",
+                            "credit": "3(2-3-6)",
                             "section": "1",
                             "type": "ทฤษฎี",
-                            "schedule": "จ. 09:30-11:30",
+                            "schedule": [
+                                "จ. 09:30-11:30"
+                            ],
                             "room": "E12-202",
                             "building": "อาคาร 12 ชั้น",
                             "teacher": [
@@ -130,12 +144,14 @@
                             "note": ""
                         },
                         {
-                            "courseID": "01076023",
+                            "courseId": "01076023",
                             "courseName": "COMPUTER HARDWARE DESIGN",
-                            "unit": "3(2-3-6)",
+                            "credit": "3(2-3-6)",
                             "section": "101",
                             "type": "ปฏิบัติ",
-                            "schedule": "อ. 16:30-19:30",
+                            "schedule": [
+                                "อ. 16:30-19:30"
+                            ],
                             "room": "E12-202",
                             "building": "อาคาร 12 ชั้น",
                             "teacher": [
@@ -148,12 +164,15 @@
                             "note": ""
                         },
                         {
-                            "courseID": "01076024",
+                            "courseId": "01076024",
                             "courseName": "SOFTWARE ARCHITECTURE AND DESIGN",
-                            "unit": "4(3-3-8)",
+                            "credit": "4(3-3-8)",
                             "section": "1",
                             "type": "ทฤษฎี",
-                            "schedule": "พฤ. 08:45-10:15</div><div>+ พฤ. 10:30-12:00",
+                            "schedule": [
+                                "พฤ. 08:45-10:15",
+                                "+ พฤ. 10:30-12:00"
+                            ],
                             "room": "",
                             "building": "ออนไลน์ วิศวกรรมศาสตร์",
                             "teacher": [
@@ -165,12 +184,14 @@
                             "note": ""
                         },
                         {
-                            "courseID": "01076024",
+                            "courseId": "01076024",
                             "courseName": "SOFTWARE ARCHITECTURE AND DESIGN",
-                            "unit": "4(3-3-8)",
+                            "credit": "4(3-3-8)",
                             "section": "101",
                             "type": "ปฏิบัติ",
-                            "schedule": "ศ. 09:00-12:00",
+                            "schedule": [
+                                "ศ. 09:00-12:00"
+                            ],
                             "room": "",
                             "building": "ออนไลน์ วิศวกรรมศาสตร์",
                             "teacher": [
@@ -182,12 +203,14 @@
                             "note": ""
                         },
                         {
-                            "courseID": "01076025",
+                            "courseId": "01076025",
                             "courseName": "SOFTWARE STUDIO",
-                            "unit": "3(2-3-6)",
+                            "credit": "3(2-3-6)",
                             "section": "1",
                             "type": "ทฤษฎี",
-                            "schedule": "พ. 09:30-11:30",
+                            "schedule": [
+                                "พ. 09:30-11:30"
+                            ],
                             "room": "",
                             "building": "ออนไลน์ วิศวกรรมศาสตร์",
                             "teacher": [
@@ -199,12 +222,14 @@
                             "note": ""
                         },
                         {
-                            "courseID": "01076025",
+                            "courseId": "01076025",
                             "courseName": "SOFTWARE STUDIO",
-                            "unit": "3(2-3-6)",
+                            "credit": "3(2-3-6)",
                             "section": "101",
                             "type": "ปฏิบัติ",
-                            "schedule": "พ. 13:00-16:00",
+                            "schedule": [
+                                "พ. 13:00-16:00"
+                            ],
                             "room": "",
                             "building": "ออนไลน์ วิศวกรรมศาสตร์",
                             "teacher": [
@@ -216,12 +241,14 @@
                             "note": ""
                         },
                         {
-                            "courseID": "01076026",
+                            "courseId": "01076026",
                             "courseName": "USER EXPERIENCE AND USER INTERFACE DESIGN",
-                            "unit": "3(2-3-6)",
+                            "credit": "3(2-3-6)",
                             "section": "1",
                             "type": "ทฤษฎี",
-                            "schedule": "พฤ. 09:30-11:30",
+                            "schedule": [
+                                "พฤ. 09:30-11:30"
+                            ],
                             "room": "",
                             "building": "ออนไลน์ วิศวกรรมศาสตร์",
                             "teacher": [
@@ -233,12 +260,14 @@
                             "note": ""
                         },
                         {
-                            "courseID": "01076026",
+                            "courseId": "01076026",
                             "courseName": "USER EXPERIENCE AND USER INTERFACE DESIGN",
-                            "unit": "3(2-3-6)",
+                            "credit": "3(2-3-6)",
                             "section": "101",
                             "type": "ปฏิบัติ",
-                            "schedule": "พฤ. 13:00-16:00",
+                            "schedule": [
+                                "พฤ. 13:00-16:00"
+                            ],
                             "room": "",
                             "building": "ออนไลน์ วิศวกรรมศาสตร์",
                             "teacher": [
@@ -250,12 +279,14 @@
                             "note": ""
                         },
                         {
-                            "courseID": "01076028",
+                            "courseId": "01076028",
                             "courseName": "INFORMATION AND COMPUTER SECURITY",
-                            "unit": "3(2-3-6)",
+                            "credit": "3(2-3-6)",
                             "section": "1",
                             "type": "ทฤษฎี",
-                            "schedule": "พ. 09:30-11:30",
+                            "schedule": [
+                                "พ. 09:30-11:30"
+                            ],
                             "room": "",
                             "building": "ออนไลน์ วิศวกรรมศาสตร์",
                             "teacher": [
@@ -267,12 +298,14 @@
                             "note": ""
                         },
                         {
-                            "courseID": "01076028",
+                            "courseId": "01076028",
                             "courseName": "INFORMATION AND COMPUTER SECURITY",
-                            "unit": "3(2-3-6)",
+                            "credit": "3(2-3-6)",
                             "section": "101",
                             "type": "ปฏิบัติ",
-                            "schedule": "พ. 13:00-16:00",
+                            "schedule": [
+                                "พ. 13:00-16:00"
+                            ],
                             "room": "",
                             "building": "ออนไลน์ วิศวกรรมศาสตร์",
                             "teacher": [
@@ -284,12 +317,14 @@
                             "note": ""
                         },
                         {
-                            "courseID": "01076029",
+                            "courseId": "01076029",
                             "courseName": "SYSTEM PLATFORM ADMINISTRATION",
-                            "unit": "3(2-3-6)",
+                            "credit": "3(2-3-6)",
                             "section": "1",
                             "type": "ทฤษฎี",
-                            "schedule": "พฤ. 09:30-11:30",
+                            "schedule": [
+                                "พฤ. 09:30-11:30"
+                            ],
                             "room": "",
                             "building": "ออนไลน์ วิศวกรรมศาสตร์",
                             "teacher": [
@@ -301,12 +336,14 @@
                             "note": ""
                         },
                         {
-                            "courseID": "01076029",
+                            "courseId": "01076029",
                             "courseName": "SYSTEM PLATFORM ADMINISTRATION",
-                            "unit": "3(2-3-6)",
+                            "credit": "3(2-3-6)",
                             "section": "101",
                             "type": "ปฏิบัติ",
-                            "schedule": "พฤ. 13:00-16:00",
+                            "schedule": [
+                                "พฤ. 13:00-16:00"
+                            ],
                             "room": "",
                             "building": "ออนไลน์ วิศวกรรมศาสตร์",
                             "teacher": [
@@ -323,12 +360,14 @@
                     "type": "วิชาเลือก / วิชาเลือกเฉพาะสาขา",
                     "courses": [
                         {
-                            "courseID": "90101002",
+                            "courseId": "90101002",
                             "courseName": "MATHEMATICS IN DAILY LIFE",
-                            "unit": "3(3-0-6)",
+                            "credit": "3(3-0-6)",
                             "section": "102",
                             "type": "ทฤษฎี",
-                            "schedule": "ศ. 13:00-16:00",
+                            "schedule": [
+                                "ศ. 13:00-16:00"
+                            ],
                             "room": "Online",
                             "building": "อาคาร Online",
                             "teacher": [
@@ -340,12 +379,14 @@
                             "note": "ช่องทางการติดต่ออาจารย์ผู้สอน http://gened.kmitl.ac.th/2021/12/07/online-2-64/"
                         },
                         {
-                            "courseID": "90104003",
+                            "courseId": "90104003",
                             "courseName": "HEALTH AND NUTRITION",
-                            "unit": "3(3-0-6)",
+                            "credit": "3(3-0-6)",
                             "section": "101",
                             "type": "ทฤษฎี",
-                            "schedule": "ศ. 13:00-16:00",
+                            "schedule": [
+                                "ศ. 13:00-16:00"
+                            ],
                             "room": "Online",
                             "building": "อาคาร Online",
                             "teacher": [
@@ -359,12 +400,14 @@
                             "note": "ช่องทางการติดต่ออาจารย์ผู้สอน http://gened.kmitl.ac.th/2021/12/07/online-2-64/"
                         },
                         {
-                            "courseID": "90104007",
+                            "courseId": "90104007",
                             "courseName": "FOOD SCIENCE IN DAILY LIFE",
-                            "unit": "3(3-0-6)",
+                            "credit": "3(3-0-6)",
                             "section": "101",
                             "type": "ทฤษฎี",
-                            "schedule": "ศ. 13:00-16:00",
+                            "schedule": [
+                                "ศ. 13:00-16:00"
+                            ],
                             "room": "Online",
                             "building": "อาคาร Online",
                             "teacher": [
@@ -389,12 +432,14 @@
                     "type": "วิชาบังคับ",
                     "courses": [
                         {
-                            "courseID": "90591002",
+                            "courseId": "90591002",
                             "courseName": "SPORTS AND RECREATIONAL ACTIVITIES",
-                            "unit": "1(0-3-2)",
+                            "credit": "1(0-3-2)",
                             "section": "913",
                             "type": "ปฏิบัติ",
-                            "schedule": "พ. 09:00-12:00",
+                            "schedule": [
+                                "พ. 09:00-12:00"
+                            ],
                             "room": "",
                             "building": "",
                             "teacher": [
@@ -408,12 +453,14 @@
                             "note": ""
                         },
                         {
-                            "courseID": "90591002",
+                            "courseId": "90591002",
                             "courseName": "SPORTS AND RECREATIONAL ACTIVITIES",
-                            "unit": "1(0-3-2)",
+                            "credit": "1(0-3-2)",
                             "section": "961",
                             "type": "ปฏิบัติ",
-                            "schedule": "พ. 13:00-16:00",
+                            "schedule": [
+                                "พ. 13:00-16:00"
+                            ],
                             "room": "",
                             "building": "",
                             "teacher": [
@@ -427,12 +474,14 @@
                             "note": ""
                         },
                         {
-                            "courseID": "90591019",
+                            "courseId": "90591019",
                             "courseName": "CHARM SCHOOL",
-                            "unit": "2(1-2-3)",
+                            "credit": "2(1-2-3)",
                             "section": "913",
                             "type": "ทฤษฎี",
-                            "schedule": "พ. 09:00-10:00",
+                            "schedule": [
+                                "พ. 09:00-10:00"
+                            ],
                             "room": "ภาควิชา",
                             "building": "",
                             "teacher": [
@@ -447,12 +496,12 @@
                             "note": ""
                         },
                         {
-                            "courseID": "90591019",
+                            "courseId": "90591019",
                             "courseName": "CHARM SCHOOL",
-                            "unit": "2(1-2-3)",
+                            "credit": "2(1-2-3)",
                             "section": "937",
                             "type": "ทฤษฎี",
-                            "schedule": "",
+                            "schedule": [],
                             "room": "",
                             "building": "",
                             "teacher": [
@@ -467,12 +516,14 @@
                             "note": ""
                         },
                         {
-                            "courseID": "90591019",
+                            "courseId": "90591019",
                             "courseName": "CHARM SCHOOL",
-                            "unit": "2(1-2-3)",
+                            "credit": "2(1-2-3)",
                             "section": "963",
                             "type": "ปฏิบัติ",
-                            "schedule": "พ. 10:00-12:00",
+                            "schedule": [
+                                "พ. 10:00-12:00"
+                            ],
                             "room": "",
                             "building": "",
                             "teacher": [
@@ -487,12 +538,14 @@
                             "note": ""
                         },
                         {
-                            "courseID": "90591019",
+                            "courseId": "90591019",
                             "courseName": "CHARM SCHOOL",
-                            "unit": "2(1-2-3)",
+                            "credit": "2(1-2-3)",
                             "section": "987",
                             "type": "ปฏิบัติ",
-                            "schedule": "พ. 14:00-16:00",
+                            "schedule": [
+                                "พ. 14:00-16:00"
+                            ],
                             "room": "",
                             "building": "",
                             "teacher": [
@@ -512,12 +565,14 @@
                     "type": "วิชาเลือก / วิชาเลือกเฉพาะสาขา",
                     "courses": [
                         {
-                            "courseID": "16166206",
+                            "courseId": "16166206",
                             "courseName": "ELEMENTARY CHINESE 1",
-                            "unit": "3(3-0-6)",
+                            "credit": "3(3-0-6)",
                             "section": "141",
                             "type": "ทฤษฎี",
-                            "schedule": "อ. 13:00-16:00",
+                            "schedule": [
+                                "อ. 13:00-16:00"
+                            ],
                             "room": "LA 408",
                             "building": "อาคารใหม่ครุศาสตร์",
                             "teacher": [
@@ -529,12 +584,14 @@
                             "note": ""
                         },
                         {
-                            "courseID": "16166206",
+                            "courseId": "16166206",
                             "courseName": "ELEMENTARY CHINESE 1",
-                            "unit": "3(3-0-6)",
+                            "credit": "3(3-0-6)",
                             "section": "142",
                             "type": "ทฤษฎี",
-                            "schedule": "พ. 09:00-12:00",
+                            "schedule": [
+                                "พ. 09:00-12:00"
+                            ],
                             "room": "",
                             "building": "",
                             "teacher": [
@@ -546,12 +603,14 @@
                             "note": ""
                         },
                         {
-                            "courseID": "16166206",
+                            "courseId": "16166206",
                             "courseName": "ELEMENTARY CHINESE 1",
-                            "unit": "3(3-0-6)",
+                            "credit": "3(3-0-6)",
                             "section": "143",
                             "type": "ทฤษฎี",
-                            "schedule": "พ. 13:00-16:00",
+                            "schedule": [
+                                "พ. 13:00-16:00"
+                            ],
                             "room": "LA 404",
                             "building": "อาคารใหม่ครุศาสตร์",
                             "teacher": [
@@ -563,12 +622,14 @@
                             "note": ""
                         },
                         {
-                            "courseID": "90402011",
+                            "courseId": "90402011",
                             "courseName": "ENGINEERING AND TECHNOLOGY LAWS",
-                            "unit": "3(3-0-6)",
+                            "credit": "3(3-0-6)",
                             "section": "101",
                             "type": "ทฤษฎี",
-                            "schedule": "ศ. 13:00-16:00",
+                            "schedule": [
+                                "ศ. 13:00-16:00"
+                            ],
                             "room": "Online",
                             "building": "อาคาร Online",
                             "teacher": [
@@ -580,12 +641,14 @@
                             "note": "ช่องทางการติดต่ออาจารย์ผู้สอน http://gened.kmitl.ac.th/2021/12/07/online-2-64/"
                         },
                         {
-                            "courseID": "90591009",
+                            "courseId": "90591009",
                             "courseName": "MEDITATION FOR LIFE DEVELOPMENT",
-                            "unit": "3(3-0-6)",
+                            "credit": "3(3-0-6)",
                             "section": "102",
                             "type": "ทฤษฎี",
-                            "schedule": "ศ. 09:00-12:00",
+                            "schedule": [
+                                "ศ. 09:00-12:00"
+                            ],
                             "room": "Online",
                             "building": "อาคาร Online",
                             "teacher": [
@@ -598,12 +661,14 @@
                             "note": "ช่องทางการติดต่ออาจารย์ผู้สอน http://gened.kmitl.ac.th/2021/12/07/online-2-64/"
                         },
                         {
-                            "courseID": "90592028",
+                            "courseId": "90592028",
                             "courseName": "TREE DOCTOR",
-                            "unit": "3(3-0-6)",
+                            "credit": "3(3-0-6)",
                             "section": "102",
                             "type": "ทฤษฎี",
-                            "schedule": "ศ. 13:00-16:00",
+                            "schedule": [
+                                "ศ. 13:00-16:00"
+                            ],
                             "room": "Online",
                             "building": "อาคาร Online",
                             "teacher": [
@@ -628,12 +693,14 @@
                     "type": "วิชาบังคับ",
                     "courses": [
                         {
-                            "courseID": "01066910",
+                            "courseId": "01066910",
                             "courseName": "PROGRAMMABLE CONTROL AND DISTRIBUTED CONTROL SYSTEMS LABORATORY",
-                            "unit": "1(0-3-2)",
+                            "credit": "1(0-3-2)",
                             "section": "3",
                             "type": "ปฏิบัติ",
-                            "schedule": "จ. 09:00-12:00",
+                            "schedule": [
+                                "จ. 09:00-12:00"
+                            ],
                             "room": "",
                             "building": "สาขาวิชา",
                             "teacher": [
@@ -645,12 +712,14 @@
                             "note": "น.ศ. เก็บตก (วัดคุม-พันธุ์ใหม่)"
                         },
                         {
-                            "courseID": "01066912",
+                            "courseId": "01066912",
                             "courseName": "PROCESS INSTRUMENTATION AND CONTROL LABORATORY",
-                            "unit": "1(0-3-2)",
+                            "credit": "1(0-3-2)",
                             "section": "3",
                             "type": "ปฏิบัติ",
-                            "schedule": "จ. 13:00-16:00",
+                            "schedule": [
+                                "จ. 13:00-16:00"
+                            ],
                             "room": "",
                             "building": "สาขาวิชา",
                             "teacher": [
@@ -667,12 +736,14 @@
                     "type": "วิชาเลือก / วิชาเลือกเฉพาะสาขา",
                     "courses": [
                         {
-                            "courseID": "90591028",
+                            "courseId": "90591028",
                             "courseName": "COOPERATIVE EDUCATION PREPARATION",
-                            "unit": "3(3-0-6)",
+                            "credit": "3(3-0-6)",
                             "section": "904",
                             "type": "ทฤษฎี",
-                            "schedule": "ศ. 16:30-19:30",
+                            "schedule": [
+                                "ศ. 16:30-19:30"
+                            ],
                             "room": "Online",
                             "building": "อาคาร Online",
                             "teacher": [
@@ -686,12 +757,14 @@
                             "note": "ช่องทางการติดต่ออาจารย์ผู้สอน http://gened.kmitl.ac.th/2021/12/07/online-2-64/"
                         },
                         {
-                            "courseID": "90591028",
+                            "courseId": "90591028",
                             "courseName": "COOPERATIVE EDUCATION PREPARATION",
-                            "unit": "3(3-0-6)",
+                            "credit": "3(3-0-6)",
                             "section": "905",
                             "type": "ทฤษฎี",
-                            "schedule": "ศ. 16:30-19:30",
+                            "schedule": [
+                                "ศ. 16:30-19:30"
+                            ],
                             "room": "Online",
                             "building": "อาคาร Online",
                             "teacher": [
@@ -705,12 +778,14 @@
                             "note": "ช่องทางการติดต่ออาจารย์ผู้สอน http://gened.kmitl.ac.th/2021/12/07/online-2-64/"
                         },
                         {
-                            "courseID": "90591028",
+                            "courseId": "90591028",
                             "courseName": "COOPERATIVE EDUCATION PREPARATION",
-                            "unit": "3(3-0-6)",
+                            "credit": "3(3-0-6)",
                             "section": "906",
                             "type": "ทฤษฎี",
-                            "schedule": "ศ. 16:30-19:30",
+                            "schedule": [
+                                "ศ. 16:30-19:30"
+                            ],
                             "room": "Online",
                             "building": "อาคาร Online",
                             "teacher": [
