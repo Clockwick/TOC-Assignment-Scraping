@@ -1,0 +1,288 @@
+{
+    "studentId": "62010381",
+    "name": "Thana Tingprasom",
+    "birthday": "September 28, 2000",
+    "admission_year": "2019",
+    "degree": "Bachelor of Engineering",
+    "major": "Computer Engineering",
+    "total_credit": "99",
+    "cumuGPA": "3.34",
+    "subjects": [
+        {
+            "semester": "1st",
+            "year": "2019-2020",
+            "GPS": "3.71",
+            "GPA": "3.71",
+            "courses": [
+                {
+                    "courseId": "01006028",
+                    "courseName": "PRE-ACTIVITIES FOR ENGINEERS",
+                    "credit": "1",
+                    "grade": "A"
+                },
+                {
+                    "courseId": "01076001",
+                    "courseName": "INTRODUCTION TO COMPUTER ENGINEERING",
+                    "credit": "3",
+                    "grade": "A"
+                },
+                {
+                    "courseId": "01076002",
+                    "courseName": "PROGRAMMING FUNDAMENTAL",
+                    "credit": "3",
+                    "grade": "A"
+                },
+                {
+                    "courseId": "90201001",
+                    "courseName": "FOUNDATION ENGLISH 1",
+                    "credit": "3",
+                    "grade": "A"
+                },
+                {
+                    "courseId": "90201036",
+                    "courseName": "ENGLISH SKILL DEVELOPMENT FOR LIFE-LONG LEARNING",
+                    "credit": "3",
+                    "grade": "C+"
+                },
+                {
+                    "courseId": "90303012",
+                    "courseName": "HOLISTIC HEALTH DEVELOPMENT",
+                    "credit": "3",
+                    "grade": "A"
+                }
+            ]
+        },
+        {
+            "semester": "2nd",
+            "year": "2019-2020",
+            "GPS": "3.50",
+            "GPA": "3.59",
+            "courses": [
+                {
+                    "courseId": "01006030",
+                    "courseName": "CALCULUS 1",
+                    "credit": "3",
+                    "grade": "D+"
+                },
+                {
+                    "courseId": "01076003",
+                    "courseName": "CIRCUITS AND ELECTRONICS",
+                    "credit": "4",
+                    "grade": "B+"
+                },
+                {
+                    "courseId": "01076004",
+                    "courseName": "OBJECT ORIENTED PROGRAMMING",
+                    "credit": "3",
+                    "grade": "A"
+                },
+                {
+                    "courseId": "01076012",
+                    "courseName": "DISCRETE STRUCTURE",
+                    "credit": "3",
+                    "grade": "B+"
+                },
+                {
+                    "courseId": "90201002",
+                    "courseName": "FOUNDATION ENGLISH 2",
+                    "credit": "3",
+                    "grade": "A"
+                },
+                {
+                    "courseId": "90306004",
+                    "courseName": "LOVING FAMILY",
+                    "credit": "3",
+                    "grade": "A"
+                },
+                {
+                    "courseId": "90403009",
+                    "courseName": "DYNAMICS OF THAI SOCIETY",
+                    "credit": "3",
+                    "grade": "A"
+                }
+            ]
+        },
+        {
+            "semester": "1st",
+            "year": "2020-2021",
+            "GPS": "2.80",
+            "GPA": "3.31",
+            "courses": [
+                {
+                    "courseId": "01076005",
+                    "courseName": "DATA STRUCTURES AND ALGORITHM",
+                    "credit": "3",
+                    "grade": "B+"
+                },
+                {
+                    "courseId": "01076006",
+                    "courseName": "DIGITAL SYSTEM FUNDAMENTALS",
+                    "credit": "4",
+                    "grade": "B"
+                },
+                {
+                    "courseId": "01076007",
+                    "courseName": "DATA COMMUNICATIONS",
+                    "credit": "4",
+                    "grade": "C"
+                },
+                {
+                    "courseId": "01076032",
+                    "courseName": "ELEMENTARY DIFFERENTIAL EQUATIONS AND LINEAR ALGEBRA",
+                    "credit": "3",
+                    "grade": "C"
+                },
+                {
+                    "courseId": "90201016",
+                    "courseName": "ENGLISH FOR PROFESSIONAL COMMUNICATION",
+                    "credit": "3",
+                    "grade": "B+"
+                },
+                {
+                    "courseId": "90402013",
+                    "courseName": "THAI INTELLECTUAL PROPERTY",
+                    "credit": "3",
+                    "grade": "B"
+                }
+            ]
+        },
+        {
+            "semester": "2nd",
+            "year": "2020-2021",
+            "GPS": "3.33",
+            "GPA": "3.32",
+            "courses": [
+                {
+                    "courseId": "01076008",
+                    "courseName": "SOFTWARE DEVELOPMENT PROCESSES",
+                    "credit": "4",
+                    "grade": "B"
+                },
+                {
+                    "courseId": "01076009",
+                    "courseName": "COMPUTER ORGANIZATION AND ASSEMBLY LANGUAGE",
+                    "credit": "4",
+                    "grade": "A"
+                },
+                {
+                    "courseId": "01076010",
+                    "courseName": "COMPUTER NETWORKS",
+                    "credit": "4",
+                    "grade": "B"
+                },
+                {
+                    "courseId": "01076253",
+                    "courseName": "PROBABILITY AND STATISTICS",
+                    "credit": "3",
+                    "grade": "B"
+                },
+                {
+                    "courseId": "01076419",
+                    "courseName": "INTERNET OF THINGS AND SMART SYSTEMS",
+                    "credit": "3",
+                    "grade": "A"
+                },
+                {
+                    "courseId": "90104007",
+                    "courseName": "FOOD SCIENCE IN DAILY LIFE",
+                    "credit": "3",
+                    "grade": "B"
+                }
+            ]
+        },
+        {
+            "semester": "1st",
+            "year": "2021-2022",
+            "GPS": "3.45",
+            "GPA": "3.34",
+            "courses": [
+                {
+                    "courseId": "01006031",
+                    "courseName": "CALCULUS 2",
+                    "credit": "3",
+                    "grade": "C+"
+                },
+                {
+                    "courseId": "01076011",
+                    "courseName": "OPERATING SYSTEMS",
+                    "credit": "3",
+                    "grade": "B"
+                },
+                {
+                    "courseId": "01076024",
+                    "courseName": "SOFTWARE ARCHITECTURE AND DESIGN",
+                    "credit": "4",
+                    "grade": "B+"
+                },
+                {
+                    "courseId": "01076027",
+                    "courseName": "INTERNETWORKING STANDARDS AND TECHNOLOGIES",
+                    "credit": "4",
+                    "grade": "A"
+                },
+                {
+                    "courseId": "01076263",
+                    "courseName": "DATABASE SYSTEMS",
+                    "credit": "3",
+                    "grade": "A"
+                },
+                {
+                    "courseId": "90591016",
+                    "courseName": "HAPPINESS SKILLS",
+                    "credit": "3",
+                    "grade": "B+"
+                }
+            ]
+        },
+        {
+            "semester": "2nd",
+            "year": "2021-2022",
+            "GPS": "-",
+            "GPA": "3.34",
+            "courses": [
+                {
+                    "courseId": "01076013",
+                    "courseName": "THEORY OF COMPUTATION",
+                    "credit": "3",
+                    "grade": ""
+                },
+                {
+                    "courseId": "01076014",
+                    "courseName": "COMPUTER ENGINEERING PROJECT PREPARATION",
+                    "credit": "1",
+                    "grade": ""
+                },
+                {
+                    "courseId": "01076025",
+                    "courseName": "SOFTWARE STUDIO",
+                    "credit": "3",
+                    "grade": ""
+                },
+                {
+                    "courseId": "01076029",
+                    "courseName": "SYSTEM PLATFORM ADMINISTRATION",
+                    "credit": "3",
+                    "grade": ""
+                },
+                {
+                    "courseId": "01076422",
+                    "courseName": "IT ENTREPRENEURSHIP AND MANAGEMENT",
+                    "credit": "3",
+                    "grade": ""
+                },
+                {
+                    "courseId": "01076567",
+                    "courseName": "IMAGE PROCESSING",
+                    "credit": "3",
+                    "grade": ""
+                },
+                {
+                    "courseId": "90104003",
+                    "courseName": "HEALTH AND NUTRITION",
+                    "credit": "3",
+                    "grade": ""
+                }
+            ]
+        }
+    ]
+}
